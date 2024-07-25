@@ -19,10 +19,11 @@ public class Ex1 {
 		
 		
 		System.out.println("리스트 전체 요소: " + list);
+		
 		list.remove(2); // remove(index값 넣기)
 		System.out.println("리스트 요소 삭제: " + list);
 		
-		int size = list.size(); // 배열은 length tkdyd
+		int size = list.size(); // 배열은 length 사용
 		System.out.println("리스트 크기: " + size);
 		
 		
